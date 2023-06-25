@@ -15,7 +15,7 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    Product_name: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
@@ -34,7 +34,7 @@ Product.init(
         isNumeric: true
       }
     },
-    catagory_id: {
+    category_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'category',
